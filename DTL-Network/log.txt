@@ -1,0 +1,2 @@
+Installed chaincodes on peer:
+Package ID: smartclaim_1:ffb3a1f181d36982de89260e28011d8b58eee25139559932071684feb4355e8e, Label: smartclaim_1

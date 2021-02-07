@@ -1,0 +1,23 @@
+[
+     {
+          "name": "collectionCars",
+          "policy": "OR('nationwideMSP.member', 'calibberMSP.member')",
+          "requiredPeerCount": 0,
+          "maxPeerCount": 3,
+          "blockToLive": 1000000,
+          "memberOnlyRead": true,
+          "memberOnlyWrite": true
+     },
+     {
+          "name": "collectionCarPrivateDetails",
+          "policy": "OR('nationwideMSP.member')",
+          "requiredPeerCount": 0,
+          "maxPeerCount": 3,
+          "blockToLive": 3,
+          "memberOnlyRead": true,
+          "memberOnlyWrite": true,
+          "endorsementPolicy": {
+               "signaturePolicy": "OR('nationwideMSP.member')"
+          }
+     }
+]

@@ -259,8 +259,8 @@ chaincodeQuery() {
 # Run this function if you add any new dependency in chaincode
  #presetup
 
-#  packageChaincode
-#  installChaincode
+# packageChaincode
+# installChaincode
 # queryInstalled
 #  approveForMynationwide
 #  checkCommitReadyness
@@ -268,7 +268,7 @@ chaincodeQuery() {
 #  checkCommitReadyness
 #  commitChaincodeDefination
 #  queryCommitted # up to this is good
-# # #========================
+# #========================
 #chaincodeInvokeInit
 # sleep 5
 #chaincodeInvoke

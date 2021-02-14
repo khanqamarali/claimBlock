@@ -1,13 +1,1 @@
-{
-    "host": "localhost",
-    "port": "4000",
-    "channelName": "claimchannel",
-    "CC_SRC_PATH": "../buildartifacts",
-    "eventWaitTime": "30000",
-    "admins": [
-        {
-            "username": "admin",
-            "secret": "adminpw"
-        }
-    ]
-}
+s

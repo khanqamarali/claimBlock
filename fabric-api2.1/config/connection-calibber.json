@@ -1,5 +1,5 @@
 {
-    "name": "buildartifacts_claimnetwork-calibber",
+    "name": "first-network-calibber",
     "version": "1.0.0",
     "client": {
         "organization": "calibber",
@@ -12,10 +12,10 @@
         }
     },
     "organizations": {
-        "calibber": {
+        "Orgcalibber": {
             "mspid": "calibberMSP",
             "peers": [
-                "peer0.calibber.example.com"          
+                "peer0.calibber.example.com"
             ],
             "certificateAuthorities": [
                 "ca.calibber.example.com"
@@ -23,7 +23,7 @@
         }
     },
     "peers": {
-        "peer0.orgcalibber.example.com": {
+        "peer0.calibber.example.com": {
             "url": "grpcs://localhost:7051",
             "tlsCACerts": {
                 "pem": "-----BEGIN CERTIFICATE-----\nMIICZzCCAg2gAwIBAgIQIIUqW+U1ywgi5hinO7/W0zAKBggqhkjOPQQDAjB+MQsw\nCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZy\nYW5jaXNjbzEdMBsGA1UEChMUY2FsaWJiZXIuZXhhbXBsZS5jb20xIzAhBgNVBAMT\nGnRsc2NhLmNhbGliYmVyLmV4YW1wbGUuY29tMB4XDTIxMDIwOTIyMjcwMFoXDTMx\nMDIwNzIyMjcwMFowfjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWEx\nFjAUBgNVBAcTDVNhbiBGcmFuY2lzY28xHTAbBgNVBAoTFGNhbGliYmVyLmV4YW1w\nbGUuY29tMSMwIQYDVQQDExp0bHNjYS5jYWxpYmJlci5leGFtcGxlLmNvbTBZMBMG\nByqGSM49AgEGCCqGSM49AwEHA0IABNtRcOS96VrWY6tYO4XSop6yDCTKILtdBjxE\nxG19FqRyAfn2iB6GajhJ3DxL/VYHtrsZy4JO3poIv93DP/y1jWejbTBrMA4GA1Ud\nDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0T\nAQH/BAUwAwEB/zApBgNVHQ4EIgQgBQZ1OjdjUlQaes8BzhRGXUMx/omsge5AuMhB\ncVZLqE4wCgYIKoZIzj0EAwIDSAAwRQIhAPLWUNjLjLTVw3PDfETEvr04Hf5/ThAc\nSWO+QPKyZjGdAiB9CyAps9zEFaN1osma0lS47E3bRYl2vHYPNdvOxwnqBw==\n-----END CERTIFICATE-----\n"
@@ -33,6 +33,7 @@
                 "hostnameOverride": "peer0.calibber.example.com"
             }
         }
+
 	
     },
     "certificateAuthorities": {

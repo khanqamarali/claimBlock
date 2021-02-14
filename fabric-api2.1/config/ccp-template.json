@@ -1,5 +1,5 @@
 {
-    "name": "buildartifacts_claimnetwork-${ORG}",
+    "name": "first-network-${ORG}",
     "version": "1.0.0",
     "client": {
         "organization": "${ORG}",
@@ -12,10 +12,10 @@
         }
     },
     "organizations": {
-        "${ORG}": {
+        "Org${ORG}": {
             "mspid": "${ORG}MSP",
             "peers": [
-                "peer0.${ORG}.example.com"          
+                "peer0.${ORG}.example.com"
             ],
             "certificateAuthorities": [
                 "ca.${ORG}.example.com"
@@ -23,7 +23,7 @@
         }
     },
     "peers": {
-        "peer0.org${ORG}.example.com": {
+        "peer0.${ORG}.example.com": {
             "url": "grpcs://localhost:${P0PORT}",
             "tlsCACerts": {
                 "pem": "${PEERPEM}"
@@ -33,6 +33,7 @@
                 "hostnameOverride": "peer0.${ORG}.example.com"
             }
         }
+
 	
     },
     "certificateAuthorities": {

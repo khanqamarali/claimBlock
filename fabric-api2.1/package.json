@@ -20,6 +20,7 @@
     "fabric-network": "^2.2.5",
     "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
+    "log4js": "^6.3.0",
     "util": "^0.10.4"
   },
   "devDependencies": {
